@@ -1,9 +1,9 @@
 <?php
 // Configurações do banco de dados
 $servername = "localhost";
-$username = "seu_usuario";
-$password = "sua_senha";
-$dbname = "nome_do_banco";
+$username = "root";
+$password = "";
+$dbname = "Agenda";
 
 // Dados do formulário
 $tarefa = $_POST['tarefa'];
