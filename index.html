@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Tarefas</title>
+</head>
+<body>
+    <h1>Cadastro de Tarefas</h1>
+    <form action="cadastrar_tarefa.php" method="post">
+        <label for="tarefa">Tarefa:</label>
+        <input type="text" name="tarefa" id="tarefa" required>
+        <br>
+        <label for="data_conclusao">Data de Conclusão:</label>
+        <input type="date" name="data_conclusao" id="data_conclusao" required>
+        <br>
+        <label for="data_aviso">Data de Aviso:</label>
+        <input type="date" name="data_aviso" id="data_aviso" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
